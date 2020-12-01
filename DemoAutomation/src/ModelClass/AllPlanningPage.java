@@ -91,6 +91,12 @@ public class AllPlanningPage {
     public boolean saveIsEnable() {
 		return driver.findElement(saveButton).isEnabled();
 	}
+    public void clickSave() {
+  		driver.findElement(saveButton).click();
+  	}
+    public void clickCancel() {
+  		driver.findElement(cancelButton).click();
+  	}
     
     
     
